@@ -1,0 +1,34 @@
+#ifndef AUDIOHOME_CONFIG
+#define AUDIOHOME_CONFIG
+
+#define AUDIOHOME_DEBUG false
+#define AUDIOHOME_DEBUG_CONFIG 5
+#define AUDIOHOME_RESTART_AFTER_NETWORK_COLLAPSE true
+#define AUDIOHOME_RESET_PLAYS_ON_START false
+
+#define AUDIOHOME_WIFI_SSID "FRITZ!Box 7560 XZ"
+#define AUDIOHOME_WIFI_PASSWORD "55878645949116258495"
+
+#if AUDIOHOME_DEBUG_CONFIG == 6
+    #define AUDIOHOME_MULTICAST_TTL 1
+    #define AUDIOHOME_MULTICAST_IPV4_ADDR "232.10.11.1"
+    #define AUDIOHOME_UDP_PORT 3333
+    #define AUDIOHOME_LOCAL_SEND_PORT 69000 //from this port can not be received
+
+    #define AUDIOHOME_LINE_IN_NAME "Musikbox"
+    #define AUDIOHOME_LINE_OUT_NAME "Musikbox_Lautsprecher"
+#endif
+
+#if AUDIOHOME_DEBUG_CONFIG == 5
+    #define AUDIOHOME_MULTICAST_TTL 1
+    #define AUDIOHOME_MULTICAST_IPV4_ADDR "232.10.11.2"
+    #define AUDIOHOME_UDP_PORT 3333
+    #define AUDIOHOME_LOCAL_SEND_PORT 69000 //from this port can not be received
+
+    #define AUDIOHOME_LINE_IN_NAME "PC"
+    #define AUDIOHOME_LINE_OUT_NAME "PC_Lautsprecher"
+#endif
+
+#define AUDIOHOME_MQTT_SERVER  "mqtt://192.168.178.49"
+
+#endif
