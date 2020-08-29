@@ -9,4 +9,4 @@ Ziel des Projektes ist es, dieses Problem mit Hilfe einer automatischen Lokalisi
 Es wird ein zentraler Server eingerichtet, welcher die Steuerung übernimmt. Die einzelnen Geräte werden dabei mittels Mikrocontroller mit dem Server vernetzt. Für die Lokalisierung werden raumbezogene Bluetooth Sender verwendet, die auf ein Gerät des Nutzers (Smartphone, Smartwatch) reagieren und so auf dessen Aufenthaltsraum innerhalb der Wohnung schließen lassen. Mit diesen Informationen kann die Audiowiedergabe entsprechend angepasst werden.
 
 ## Weitere Infos und Ergebnisse: 
-[Projektbericht](https://github.com/PrinzDarknis/AudioHome/blob/master/Projektbericht.pdf)
+[Projektbericht](https://github.com/PrinzDarknis/AudioHome/blob/master/Projektbericht%20(Git).pdf)
